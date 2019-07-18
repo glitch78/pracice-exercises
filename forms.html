@@ -5,40 +5,50 @@
         <title>Register With Us</title>
     </head>
     <body>
-        <form>
-            <P>
-                <label for="email">Email</label>
-                <input id="email" name="email">
-            </P>
-            <P>
-                <label for="password">Password</label>
-                <input id="password" name="password">
-            </P>
-            <p>
-                <label for="bio">Bio</label>
-                <textarea></textarea>
-            </p>
-            <p>How did you hear about us?</p>
-            <label>
-                 <input type="radio"name="q1" value="billboard">Billboard
-            </label>
-            <label>
-                <input type="radio"name="q1" value="radio advertisement">Radio Advertisement
-            </label>
-            <label>
-                <input type="radio"name="q1" value="internet advertisement">Internet Advertisement
-            </label>
-            <label>
-                <input type="radio"name="q1" value="other">Other
-            </label>
-            <p>What kiind of browser have you used?</p>
-            <label for="browser">Select browser type: </label>
-            <select id="browser" name="browser">
-                <option>chrome</option>
-                <option>Internet Explorer</option>
-                <option>Firefox</option>
-            </select>
-
-        </form>
+    <form method="POST" action="https://request-inspector.glitch.me/">
+        <main>
+            <section>
+                <P>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" required name="email">
+                </P>
+                <P>
+                    <label for="password">Password</label>
+                    <input type="text" id="password" required name="password" placeholder="Password goes here">
+                </P>
+                <p>
+                    <label for="bio">Bio</label>
+                    <textarea></textarea>
+                </p>
+            </section>
+            <section>
+                <h4>How did you hear about us?</h4>
+                <label>
+                    <input type="checkbox" name="q1" value="billboard">Billboard
+                </label>
+                <label>
+                    <input type="checkbox" name="q1" value="radio advertisement">Radio Advertisement
+                </label>
+                <label>
+                    <input type="checkbox" name="q1" value="internet advertisement">Internet Advertisement
+                </label>
+                <label>
+                    <input type="checkbox" name="q1" value="other">Other
+                </label>
+            </section>
+            <section>
+                <h4>What kiind of browser have you used?</h4>
+                <label for="browser">Select browser type: </label>
+                <select id="browser" name="browser">
+                    <option>chrome</option>
+                    <option>Internet Explorer</option>
+                    <option>Firefox</option>
+                </select>
+                <P><input type="submit">
+                    <button type="reset">Reset</button>
+                </p>
+            </section>
+    </form>
+    </main>
     </body>
 </html>
