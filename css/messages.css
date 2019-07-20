@@ -1,0 +1,30 @@
+div {
+
+    padding: .4em;
+    width: 80%;
+    border-color: lightgray;
+    border-radius: .3em;
+    margin: 0 auto;
+}
+
+
+.one {
+    background-color: lightblue;
+    margin-top: 1em;
+}
+
+.two {
+    background-color: lightgreen;
+    margin-top: 1em;
+
+}
+
+.three {
+    background-color: lightyellow;
+    margin-top: 1em;
+}
+
+.four {
+    background-color: lightpink;
+    margin-top: 1em;
+}
