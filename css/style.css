@@ -1,0 +1,37 @@
+.fancy-header {
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+html,
+body    {
+    background-image: url("/pracice-exercises/img/white-background.jpg");
+   background-color: lightyellow;
+    background-size: cover;
+    font-family: 'Fascinate Inline', cursive;
+}
+
+ul {
+    list-style: upper-roman;
+}
+
+table,  td, th, tr{
+    padding: 5px;
+    font-size: larger;
+    text-align: center;
+    border: 2px solid deepskyblue;
+    margin: auto;
+}
+
+.states a:link {
+    color: black;
+}
+
+.states a:hover {
+green
+}
+
+
+
