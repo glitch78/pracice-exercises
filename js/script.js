@@ -92,7 +92,7 @@ var herculesTotal = hercules * day;
 console.log(mermaidTotal + brotehrBearTotal + herculesTotal);
 
 var rentalTotal = mermaidTotal + brotehrBearTotal + herculesTotal;
-console.log(rentalTotal);
+alert( "The video rental total is "  + rentalTotal);
 
 var google, amazon, faceBook, googleHours, amazonHours, faceBookHours, googlePay, amazonPay, faceBookPay, totalPay;
 google = 400;
@@ -104,22 +104,26 @@ faceBookHours = 10;
 
 googlePay = google * googleHours;
 
-console.log(googlePay);
+alert("Google paid me: " + googlePay);
 
 amazonPay = amazon * amazonHours;
+alert("Amazon paid me: " + amazonPay);
 
 faceBookPay = faceBook * faceBookHours;
+alert("Facebook paid me: " + faceBookPay)
 
 totalPay = googlePay + amazonPay + faceBookPay;
 
-console.log(totalPay);
+alert("My total pay is: " + totalPay);
 
  */
+
+
 
 /************************************
  * Operator Precedence
  */
-
+/*
 var now = 2018;
 var yearJohn = 1989;
 var fullAge = 18;
@@ -148,6 +152,21 @@ x++;
 console.log(x);
 x--;
 console.log(x);
+*/
+
+/*****************************
+ * If /else statements
+ */
+/*
+
+var firstName = "John";
+var civilStatus = "married";
+
+if (civilStatus === "married"); {
+    console.log(firstName + " is married")
+}
+
+*/
 
 
 
