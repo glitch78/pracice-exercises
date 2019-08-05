@@ -53,6 +53,7 @@ console.log(firstName + lastName + age);
 /*******************************
  * Basic operators
  */
+/*
 var year, yearJohn, yearMark;
 var now = 2019;
 var ageJohn = 28;
@@ -112,6 +113,45 @@ faceBookPay = faceBook * faceBookHours;
 totalPay = googlePay + amazonPay + faceBookPay;
 
 console.log(totalPay);
+
+ */
+
+/************************************
+ * Operator Precedence
+ */
+
+var now = 2018;
+var yearJohn = 1989;
+var fullAge = 18;
+// Multiple operators
+var isFullAge = now - yearJohn >= fullAge;
+console.log(isFullAge);
+
+// Grouping
+var ageJohn = now - yearJohn;
+var ageMark = 35;
+var average = (ageMark + ageJohn) / 2;
+
+console.log(average);
+
+// multiple assignments
+var x, y;
+x = y = (3 + 5) * 4 - 6; // 8 * 4 - 6 // 32 - 6 // = 26
+console.log(x, y);
+
+//more operators
+x *= 2;
+console.log(x);
+x += 10;
+console.log(x);
+x++;
+console.log(x);
+x--;
+console.log(x);
+
+
+
+
 
 
 
