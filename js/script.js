@@ -119,7 +119,6 @@ alert("My total pay is: " + totalPay);
  */
 
 
-
 /************************************
  * Operator Precedence
  */
@@ -157,6 +156,7 @@ console.log(x);
 /*****************************
  * If /else statements
  */
+
 /*
 
 var firstName = "John";
@@ -169,16 +169,38 @@ if (civilStatus === "married"); {
 */
 
 
+/***********************
+ * Functions
+
+ */
+
+function calculateAge(birthYear) {
+    return 2019 - birthYear
+}
 
 
+var ageJohn = calculateAge(1990);
+var ageMike = calculateAge(1931);
+var ageJane = calculateAge(1941);
+
+console.log(ageJohn, ageJane, ageMike);
 
 
+function yearsUntilRetirement(year, firstName) {
+    var age = calculateAge(year);
+    var retirement = 65 - age;
+
+    if (retirement > 0) {
+        console.log(firstName + " " + "retires in" + " " + retirement + " " + "years.");
+    } else {
+        console.log(firstName + " " + "is already retired.");
+    }
+}
 
 
-
-
-
-
+yearsUntilRetirement(1990, "John");
+yearsUntilRetirement(1949, "Mike");
+yearsUntilRetirement(1980, "Bill");
 
 
 

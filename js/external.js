@@ -1,4 +1,4 @@
-console.log("Hello from external javascript");
+/*console.log("Hello from external javascript");
 alert("welcome to my Website");
 
 var userInput = prompt("what is your favorite color")
@@ -10,23 +10,24 @@ if (userInput === favorite) {
 else {
     alert("That's a nice color");
 }
+*/
 
-var  littleMermaid, brotherBear, hercules, day;
 
-littleMermaid = 3;
-brotherBear = 5;
-hercules = 1;
-day = 3;
+var  littleMermaidDaysRented, brotherBearDaysRented, herculesDaysRented, pricePerDay;
+
+littleMermaidDaysRented = 3;
+brotherBearDaysRented = 5;
+herculesDaysRented = 1;
+pricePerDay = 3;
 
 //variables and operators lesson from codeup
-var mermaidTotal = littleMermaid * day;
-var brotehrBearTotal = brotherBear * day;
-var herculesTotal = hercules * day;
+var mermaidTotal = littleMermaidDaysRented * pricePerDay;
+var brotehrBearTotal = brotherBearDaysRented * pricePerDay;
+var herculesTotal = herculesDaysRented * pricePerDay;
 
-console.log(mermaidTotal + brotehrBearTotal + herculesTotal);
 
 var rentalTotal = mermaidTotal + brotehrBearTotal + herculesTotal;
-alert( "The video rental total is "  + rentalTotal);
+console.log( "The video rental total is "  + rentalTotal);
 
 var google, amazon, faceBook, googleHours, amazonHours, faceBookHours, googlePay, amazonPay, faceBookPay, totalPay;
 google = 400;
@@ -38,28 +39,66 @@ faceBookHours = 10;
 
 googlePay = google * googleHours;
 
-alert("Google paid me: " + googlePay);
+console.log("Google paid me: " + googlePay);
 
 amazonPay = amazon * amazonHours;
-alert("Amazon paid me: " + amazonPay);
+console.log("Amazon paid me: " + amazonPay);
 
 faceBookPay = faceBook * faceBookHours;
-alert("Facebook paid me: " + faceBookPay)
+console.log("Facebook paid me: " + faceBookPay)
 
 totalPay = googlePay + amazonPay + faceBookPay;
 
-alert("My total pay is: " + totalPay);
+console.log("My total pay is: " + totalPay);
 
-var notFull = "enroll";
-var full = "can't enroll";
-var noConflict = "enroll";
-var conflict = "can't enroll";
-var answer = "yes";
+var classIsnotFull = true;
+var classIsfull = false;
+var noSheduleConflict = true;
 
-var userResponse = prompt("Is there an open slot in class?");
+var studentEnroll = classIsnotFull && noSheduleConflict;
 
- if (userResponse === answer ) {
+console.log(studentEnroll);
+
+/*alert("There is an open spot in class, I will  " + notFull);
+
+alert("No class spots available, I " + full);
+
+alert("The class date conflicts with my shcedule, I " + conflict);
+
+alert("class does not conflict with my schedule, I will " + noConflict);
+
+ */
+
+
+
+
+
+
+
+
+//var answer = "yes";
+
+
+
+/*var userResponse = prompt("Is there an open slot in class?");
+
+ if (userResponse === answer && notFull) {
      alert("I will enroll");
  }
+ else {
+     alert("I will not enroll");
+ }
+ */
 
+var twoOrMore = true;
+var notExpired = true;
 
+var offerapplied = twoOrMore || notExpired;
+console.log(offerapplied);
+
+var username = "codeup";
+var password = "notastrongpassword";
+
+console.log(password.length >= 5);
+
+console.log()
