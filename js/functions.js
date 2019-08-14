@@ -122,3 +122,10 @@ alert("A twenty percent tip is encoraged, twenty percent of your bill is:" + " "
  *
  * > applyDiscount(45.99, 0.12) // 40.4712
  */
+
+function calculateDiscount(discount) {
+    return 100 * discount;
+}
+
+var discountPrice = calculateDiscount(.20);
+alert(discountPrice);
