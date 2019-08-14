@@ -2,7 +2,7 @@
  * variable and data types
  */
 
-/*
+
 var  firstName = "Lancelot";
 console.log(firstName);
 
@@ -20,7 +20,7 @@ console.log(job);
 
 // practice single line comment
 
-*/
+
 
 
 /**************************
@@ -28,7 +28,7 @@ console.log(job);
  */
 
 
-/*
+
 var firstName = "Lancelot ";
 var age = 45;
 
@@ -48,12 +48,12 @@ alert(age + job);
 
 var lastName = prompt("what is his last name ");
 console.log(firstName + lastName + age);
-*/
+
 
 /*******************************
  * Basic operators
  */
-/*
+
 var year, yearJohn, yearMark;
 var now = 2019;
 var ageJohn = 28;
@@ -116,13 +116,13 @@ totalPay = googlePay + amazonPay + faceBookPay;
 
 alert("My total pay is: " + totalPay);
 
- */
+
 
 
 /************************************
  * Operator Precedence
  */
-/*
+
 var now = 2018;
 var yearJohn = 1989;
 var fullAge = 18;
@@ -151,13 +151,13 @@ x++;
 console.log(x);
 x--;
 console.log(x);
-*/
+
 
 /*****************************
  * If /else statements
  */
 
-/*
+
 
 var firstName = "John";
 var civilStatus = "married";
@@ -166,14 +166,14 @@ if (civilStatus === "married"); {
     console.log(firstName + " is married")
 }
 
-*/
+
 
 
 /***********************
  * Functions
 
  */
-/*
+
 function calculateAge(birthYear) {
     return 2019 - birthYear
 }
@@ -203,7 +203,7 @@ yearsUntilRetirement(1949, "Mike");
 yearsUntilRetirement(1980, "Bill");
 
 
- */
+
 
 /*************************************
  * Loops and iteration
