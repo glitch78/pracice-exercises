@@ -268,12 +268,16 @@ for (var i = 1; i < 50; i++) {
     var planetsString = "Mercury|Venus|Earth|Mars|Jupiter|Saturn|Uranus|Neptune";
     var planetsArray;
 
+
+
+
     /**
      * TODO:
      * Convert planetsString to an array, and save it in a variable named
      * planetsArray.
      * console.log planetsArray to check your work
      */
+
      planetsArray = planetsString.split(",");
 
      console.log(planetsArray);
@@ -288,6 +292,7 @@ for (var i = 1; i < 50; i++) {
      * list. You will need an opening AND closing <ul> tags around the entire
      * string, and <li> tags around each planet.
      */
+
 
 })();
 
@@ -310,7 +315,7 @@ for (var i = 1; i < 50; i++) {
      * Read each console log below, and write some javascript code to perform
      * the step that it describes
      */
-
+/*
     console.log('Adding "The Sun" to the beginning of the planets array.');
     planets.unshift("The Sun");
     console.log(planets);
@@ -341,7 +346,11 @@ for (var i = 1; i < 50; i++) {
     console.log(planets);
 
 
+ */
+
+
 
 
 
 })();
+
